@@ -1,0 +1,85 @@
+ <!doctype html>
+ <html lang="en">
+  <head>
+      
+     <title>Blogs</title>
+     
+
+                  <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                  <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                        <!-- Slick CSS -->  
+     <link rel="stylesheet" href="slick-theme.css">
+     <link rel="stylesheet" href="slick.css">
+
+ </head>
+
+     <style>
+  html,body{
+       margin: 0;
+       padding: 0;
+  }
+  *{
+       box-sizing: border-box;
+  }
+  .slider{
+       width: 50%;
+       margin: 100px auto;
+  }
+  .slick-slide{
+margin: 0 20px;
+  }
+  .slick-slide img{
+       width: 50%;
+  }
+  .slick-prev:before,
+  .slick-next:before{
+       color: black;
+  }
+  .slick-slide{
+       transition: all ease-in-out .3s;
+       opacity: .5;
+  }
+  .slick-current{
+       opacity: 1;
+  }
+
+
+     </style>
+  
+ <body>
+  <section class="slider-area slider">
+       <div><img src="logos\A3S-lOGO.png" alt=""></div> 
+       <div><img src="logos\AUTOPLANET FINAL.png" alt=""></div> 
+       <div><img src="logos\Best Value Imports and Exports FINAL.png" alt=""></div> 
+       <div><img src="logos\Logo-Triangle-Original-1.png" alt=""></div> 
+       <div><img src="logos\LUXUS FINAL.png" alt=""></div> 
+       <div><img src="logos\samam logo.png" alt=""></div> 
+       <div><img src="logos\Tourmaline_Jewels_FINAL.png" alt=""></div> 
+
+  </section>
+
+     <script src="slick-master\slick\slick.js"></script>
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+     <script>
+          $(".slider-area").slick({
+               dots:true,
+               Infinite:true,
+               slidesToShow:7,
+               slidesToScroll:7,
+               autoplay:true,
+               speed: 300,
+               currentMode:true
+          });
+     </script>
+
+ </body>
+ </html>
+
+   

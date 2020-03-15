@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>card hover</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <style>
+        .wrapper{
+            width: 1170px;
+            margin: 70px auto;
+            background: #eee;
+            justify-content: center;
+            align-items: center;
+        }
+        .sin-team{
+            width:28%;
+            float:left;
+            margin:15px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.8);
+            padding:15px;
+            color:#fff;
+            background: #262626;
+            border-radius: 15px;
+         }
+        .sin-team img{
+           width: 150px;
+           height: 150px;
+           border-radius: 100px;
+           float:left; 
+           margin:40px 20px 30px 5px;
+           border: 5px solid #fff;
+           shape-outside: circle();
+           transition: all 1.5s ease;
+         }
+         p{   
+            text-align: justify;
+        }
+        .sin-team{
+            overflow: hidden;
+        }
+      .sin-team:hover img
+      {
+          transform: scale(1.2);
+      }
+     
+      h2{
+
+          color: #ffcc29;
+          text-align: center;
+         
+      }
+      h2::after
+     {
+      content: '';
+      background: #555;
+      display: block;
+      height:3px;
+      width:90px;
+      margin:20px auto 5px;
+      margin-bottom: 40px;
+     }
+     h3
+     {
+      color: #ffcc29;
+      text-align: center;
+      margin: 0 0 20px;
+      padding: 0;
+      font-size: 30px;
+     }
+     </style>
+
+    <body>
+      <div class="container">
+         <div class="services">
+          <h2>Services</h2>
+          <div id=".wrapper">
+          <div class="row">
+         
+              <div class="col-xs-4 col-sm-4 col-md-4" >
+          <div class="sin-team">
+                   <img src="Icons/branding.png"> 
+          <h3>Branding</h3>
+          <p> To get your brand to the top of the search list, digital marketing agencies use search engine optimization to the fullest! By plugging in the right keywords and perfectly using the bidding concept, Whacked Out works to get you to the top. Always.<p>
+        </div>
+         </div>
+
+         <div class="col-xs-4 col-sm-4 col-md-4">
+        <div class="sin-team">
+            <img src="Icons/branding.png">
+  
+ <h3>Branding</h3>
+ <p> To get your brand to the top of the search list, digital marketing agencies use search engine optimization to the fullest! By plugging in the right keywords and perfectly using the bidding concept, Whacked Out works to get you to the top. Always.<p>
+</div>
+</div>
+
+
+<div class="sin-team">
+    
+    <img src="Icons/branding.png">
+    <div class="col-xs-4 col-sm-4 col-md-4">
+<h3>Branding</h3>
+<p> To get your brand to the top of the search list, digital marketing agencies use search engine optimization to the fullest! By plugging in the right keywords and perfectly using the bidding concept, Whacked Out works to get you to the top. Always.<p>
+</div>
+</div>
+       </div>
+      </div>
+      </div> 
+     </div> 
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" ></script> 
+    </body>
+</html>
